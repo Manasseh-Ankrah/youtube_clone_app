@@ -4,7 +4,7 @@ import WatchLaterIcon from '@material-ui/icons/WatchLater';
 import Loader from 'react-loader-spinner';
 import MyAccount from './MyAccount';
 
-//     const Fetch_url = `https://www.googleapis.com/youtube/v3/search?key=${Api_key}&channelId=${ChannelId}&part=snippet,id&order=date&maxResults=${Results}`;
+//  const Fetch_url = `https://www.googleapis.com/youtube/v3/search?key=${Api_key}&channelId=${ChannelId}&part=snippet,id&order=date&maxResults=${Results}`;
 
 function Lib_Watch() {
     const Api_key = "AIzaSyBlS38y4IWzlRrR9aPONH3TKovlA6Y3CEE";
@@ -26,13 +26,13 @@ function Lib_Watch() {
     fetch_Lib_Watch();
   },[])
 
-//    if(errorMsg === false) {
-//        return(
-//            <div className="errorMsg_lib">
-//                <Loader type="TailSpin" color="red" height={80} width={80} />
-//            </div>
-//        )
-//    }
+   if(errorMsg === false) {
+       return(
+           <div className="errorMsg_lib">
+               <Loader type="TailSpin" color="red" height={80} width={80} />
+           </div>
+       )
+   }
 
     return (
         <div className="lib">
@@ -49,7 +49,7 @@ function Lib_Watch() {
                 <div className="lib__videos  ">
                      {data.map(vids => {
                 return(                                   
-                        <iframe className="lib__iframe" src={vids}  frameBorder="0" allowFullScreen>
+                        <iframe className="lib__iframe" src={vids} title="Lib_Watch Page"  frameBorder="0" allowFullScreen>
                          </iframe>                                 
                 )
              })}

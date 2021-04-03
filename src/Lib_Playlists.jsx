@@ -48,7 +48,7 @@ function Library() {
                 <div className="library__videos  ">
                      {data.map(vids => {
                 return(                                   
-                        <iframe className="library__iframe" src={vids}  frameBorder="0" allowFullScreen>
+                        <iframe className="library__iframe" src={vids} title="Lib_Playlists Page"  frameBorder="0" allowFullScreen>
                          </iframe>                                 
                 )
              })}

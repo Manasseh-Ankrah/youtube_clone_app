@@ -49,7 +49,7 @@ function History() {
                 return( 
                     <div className="history__main">        
                         <div>
-                            <iframe className="history__iframe" src={vids}  frameBorder="0" allowFullScreen>
+                            <iframe className="history__iframe" src={vids} title="History Page"  frameBorder="0" allowFullScreen>
                             </iframe>
                          </div>               
                          

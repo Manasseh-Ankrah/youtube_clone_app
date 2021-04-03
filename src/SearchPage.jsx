@@ -3,14 +3,10 @@ import './SearchPage.css';
 import TuneOutlinedIcon from '@material-ui/icons/TuneOutlined';
 import ChannelRow from './ChannelRow';
 import VideoRow from './VideoRow';
-import ChannelRowImage from './image/customer-9.jpg';
-import VideoRowImage1 from './image/react.png';
-import VideoRowImage2 from './image/python.jpg';
-import VideoRowImage3 from './image/proLanguages.jpg';
-import VideoRowImage4 from './image/angular.png';
+
 
 function SearchPage(props) {
-    // console.log(props)
+
     const Api_key = "AIzaSyBlS38y4IWzlRrR9aPONH3TKovlA6Y3CEE";
     const ChannelId = "UCBR8-60-B28hp2BmDPdntcQ";
     const Results = 2;
@@ -38,7 +34,7 @@ function SearchPage(props) {
             <hr />
             {data.map(vids => {
                 return(                                   
-                        <iframe className="recommendedVideos__iframe" src={vids}  frameBorder="0" allowFullScreen>
+                        <iframe className="recommendedVideos__iframe" src={vids} title="SearchPage Page"  frameBorder="0" allowFullScreen>
                          </iframe>                                 
                 )
             })}    

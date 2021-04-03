@@ -22,12 +22,12 @@ function YoutubeApi() {
 
   
 
-    console.log(data)
+    
     return (
         <div>
             {data.map(vids => {
                 return(                 
-                        <iframe width="560" height="315" src={vids}  frameBorder="0" allowFullScreen>
+                        <iframe width="560" height="315" src={vids} title="YoutubeApi Page"  frameBorder="0" allowFullScreen>
                          </iframe>               
                 )
             })}    

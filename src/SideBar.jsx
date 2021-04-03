@@ -19,7 +19,7 @@ function SideBar() {
   
    // const {toggleIcon} = useContext(AppContext);
    const {toggleIcon,ChangeIcon} = useContext(AppContext)
-    console.log(toggleIcon);
+    
     return (
         <div className={toggleIcon ? "sidebar" : "noToggle"}>
             <Link to="/" className="link__style">

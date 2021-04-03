@@ -49,7 +49,7 @@ function LikedVideos() {
                 return( 
                     <div className="likedVideos__main">        
                         <div>
-                            <iframe className="likedVideos__iframe" src={vids}  frameBorder="0" allowFullScreen>
+                            <iframe className="likedVideos__iframe" title="LikedVideos Page" src={vids}  frameBorder="0" allowFullScreen>
                             </iframe>
                          </div>               
                          

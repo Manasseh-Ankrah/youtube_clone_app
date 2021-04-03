@@ -49,7 +49,7 @@ function Trending() {
                 return( 
                     <div className="trending__main">        
                         <div>
-                            <iframe className="trending__iframe" src={vids}  frameBorder="0" allowFullScreen>
+                            <iframe className="trending__iframe" src={vids} title="Trending Page"  frameBorder="0" allowFullScreen>
                             </iframe>
                          </div>               
                          

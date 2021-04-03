@@ -53,7 +53,7 @@ function RecommendedVideos() {
                 return( 
                     <div className="recommendedVideos__main">        
                         <div>
-                            <iframe className="recommendedVideos__iframe" src={vids}  frameBorder="0" allowFullScreen>
+                            <iframe className="recommendedVideos__iframe" src={vids} title="RecommendedVideos Page"  frameBorder="0" allowFullScreen>
                             </iframe>
                          </div>               
                          

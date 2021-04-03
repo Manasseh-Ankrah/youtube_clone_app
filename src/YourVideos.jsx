@@ -49,7 +49,7 @@ function YourVideos() {
                 return( 
                     <div className="yourVideos__main">        
                         <div>
-                            <iframe className="yourVideos__iframe" src={vids}  frameBorder="0" allowFullScreen>
+                            <iframe className="yourVideos__iframe" src={vids} title="YourVideos Page"  frameBorder="0" allowFullScreen>
                             </iframe>
                          </div>               
                          

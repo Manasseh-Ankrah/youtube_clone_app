@@ -48,7 +48,7 @@ function Lib_History() {
                 <div className="lib__videos  ">
                      {data.map(vids => {
                 return(                                   
-                        <iframe className="lib__iframe" src={vids}  frameBorder="0" allowFullScreen>
+                        <iframe className="lib__iframe" src={vids} title="Lib_History Page"  frameBorder="0" allowFullScreen>
                          </iframe>                                 
                 )
              })}

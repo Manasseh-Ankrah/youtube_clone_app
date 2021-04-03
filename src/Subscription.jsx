@@ -49,7 +49,7 @@ function Subscription() {
                 return( 
                     <div className="subscription__main">        
                         <div>
-                            <iframe className="subscription__iframe" src={vids}  frameBorder="0" allowFullScreen>
+                            <iframe className="subscription__iframe" src={vids} title="Subscription Page"  frameBorder="0" allowFullScreen>
                             </iframe>
                          </div>               
                          

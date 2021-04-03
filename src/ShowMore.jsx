@@ -49,7 +49,7 @@ function ShowMore() {
                 return( 
                     <div className="showMore__main">        
                         <div>
-                            <iframe className="showMore__iframe" src={vids}  frameBorder="0" allowFullScreen>
+                            <iframe className="showMore__iframe" src={vids} title="ShowMore Page"  frameBorder="0" allowFullScreen>
                             </iframe>
                          </div>               
                          
