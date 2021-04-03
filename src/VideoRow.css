@@ -1,0 +1,54 @@
+.videoRow {
+  display: flex;
+  margin-bottom: 30px;
+  max-width: 80%;
+}
+
+.videoRow > img {
+  object-fit: contain;
+  width: 246px;
+  height: 190px;
+}
+
+.videoRow__text {
+  margin-left: 14px;
+}
+
+.videoRow__description {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #606060;
+}
+
+.videoRow__headline {
+  font-size: 12px;
+  color: #606060;
+}
+
+.videoRow__subnumber {
+  color: rgb(48, 109, 223);
+}
+
+.videoRow__subs {
+  background-color: lightgray;
+}
+
+@media screen and (max-width: 780px) {
+  .videoRow {
+    max-width: 100%;
+  }
+
+  .videoRow > img {
+    object-fit: contain;
+    width: 180px;
+    height: 120px;
+  }
+
+  .videoRow__text > h3 {
+    font-size: 15px;
+  }
+
+  /* .channelRow__logo {
+        margin: 20px 20px;
+    } */
+}

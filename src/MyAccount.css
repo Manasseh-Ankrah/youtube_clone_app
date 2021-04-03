@@ -1,0 +1,31 @@
+.myAccount {
+    flex: 0.2;
+    position: relative;
+    top: -45px;
+}
+
+.myAccount__avatar {
+    object-fit: contain;
+    width: 110px !important;
+    height: 110px !important;
+    margin-left: 20px;
+}
+
+.myAccount__details > h3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: large;
+    color: rgba(0, 0, 0, 0.774);
+}
+
+.myAccount__details {
+    margin-left: 20px;
+}
+  
+hr {
+    height: 1px;
+    border: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: lightgray;
+}

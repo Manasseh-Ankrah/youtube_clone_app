@@ -1,0 +1,21 @@
+.sidebar {
+    flex: 0.2;
+}
+
+.noToggle {
+    flex:0;
+  display: none;
+}
+
+.sidebar > hr {
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.link__style {
+    text-decoration: none;
+    color: black;
+}
